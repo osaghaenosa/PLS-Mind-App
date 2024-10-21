@@ -12,7 +12,9 @@ import * as SplashScreen from 'expo-splash-screen';
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
 
-const myLink = 'https://organic-verified-hedgehog.ngrok-free.app';
+// const myLink = 'https://organic-verified-hedgehog.ngrok-free.app';
+const myLink = 'https://plsmind.com';
+
 
 export default function App() {
   const [isAppReady, setIsAppReady] = useState(false);
