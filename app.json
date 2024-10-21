@@ -4,14 +4,19 @@
     "slug": "FirstApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/20231126_073854.png",
+    "icon": "./assets/pls_logo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/20231115_135120.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#a68c37"
     },
     "ios": {
+      "icon": "./assets/pls_logo.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/pls_logo.png",
+        "backgroundColor": "#a68c37"
+      },
       "supportsTablet": true,
       "bundleIdentifier": "com.nosatoons.FirstApp"
     },
@@ -19,13 +24,13 @@
       "icon": "./assets/pls_logo.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/pls_logo.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#a68c37"
         
       },
       "splash": {
-        "image": "./assets/20231115_135120.png",
+        "image": "./assets/splash.png",
         "resizeMode": "contain",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#a68c37"
       },
       "package": "com.nosatoons.FirstApp"
     },
