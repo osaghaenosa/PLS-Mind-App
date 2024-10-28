@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FirstApp",
+    "name": "PLS Mind",
     "slug": "FirstApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,6 +22,18 @@
     },
     "android": {
       "icon": "./assets/pls_logo.png",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "plsmind",
+              "host": "open"
+            }
+          ],
+          "category": ["BROWSABLE", "DEFAULT"]
+        }
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/pls_logo.png",
         "backgroundColor": "#a68c37"
@@ -42,5 +54,6 @@
         "projectId": "cec3d568-34ab-4592-b59e-149af4433f78"
       }
     }
+
   }
 }

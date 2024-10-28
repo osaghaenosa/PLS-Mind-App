@@ -95,7 +95,9 @@ export default function App() {
     
     mxa[ix].target = "_self";
   }
-
+  const installPrompt = document.getElementById('install-prompt');
+  inApp = true;
+  installPrompt.style.display = 'none';
   
   if(message == "Product edited successfully." || message == "You have successfully uploaded your product" || message == "Successfully Modified Your Business Account"){
     popup_cart_n.style.display = 'flex';
