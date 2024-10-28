@@ -1,3 +1,4 @@
+import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useRef, useState } from 'react';
 import {
   StyleSheet, BackHandler, ActivityIndicator, View, Alert, Image
@@ -95,8 +96,8 @@ export default function App() {
     
     mxa[ix].target = "_self";
   }
-  const installPrompt = document.getElementById('install-prompt');
-  inApp = true;
+  var installPrompt = document.querySelector('#install-prompt');
+  
   installPrompt.style.display = 'none';
   
   if(message == "Product edited successfully." || message == "You have successfully uploaded your product" || message == "Successfully Modified Your Business Account"){
@@ -137,6 +138,7 @@ export default function App() {
         </View>
       )}
 
+      
       <WebView
         ref={webviewRef}
         source={{ uri: currentUrl }}
@@ -152,6 +154,8 @@ export default function App() {
         onShouldStartLoadWithRequest={onShouldStartLoadWithRequest} // Intercept link clicks
         onMessage={handleWebViewMessage}
       />
+
+      <StatusBar style="light" backgroundColor="#a68c37" translucent={false} />
     </SafeAreaView>
   );
 }

@@ -13,10 +13,6 @@
     },
     "ios": {
       "icon": "./assets/pls_logo.png",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/pls_logo.png",
-        "backgroundColor": "#a68c37"
-      },
       "supportsTablet": true,
       "bundleIdentifier": "com.nosatoons.FirstApp"
     },
@@ -37,12 +33,6 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/pls_logo.png",
         "backgroundColor": "#a68c37"
-        
-      },
-      "splash": {
-        "image": "./assets/splash.png",
-        "resizeMode": "contain",
-        "backgroundColor": "#a68c37"
       },
       "package": "com.nosatoons.FirstApp"
     },
@@ -54,6 +44,5 @@
         "projectId": "cec3d568-34ab-4592-b59e-149af4433f78"
       }
     }
-
   }
 }
